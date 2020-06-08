@@ -1,0 +1,123 @@
+Red Hat Open Source Code
+
+Project Start Date-31/03/2020
+------------------------
+
+In RHOSC I have worked on Conversion of Microservice session Application From
+Thorntail to Qurarkus and making a pull request to the Eclipse project.
+
+The project was divided into 6 subtasks.
+
+The first task was to install maven on windows, to create an application using maven, and to build it
+
+I was running the maven using mvn clean install. From this, I came to know what
+happens when we use ‘mvn clean install’. mvn clean cleans the project by
+removing target and mvn install builds the project i.e creates everything in the
+target directory and installs it into my local repository. Then using mvn run it
+in eclipse ide and I got the output successfully as I used HelloWorldThorntail!.
+After this task, I approached my mentor Martin. He taught me how internally mvn
+build (clean install) works and what happens after that when we run a maven
+application. In this, I got to know about the dependencies in Maven.
+
+
+The second task is to know about git and GitHub
+
+  I knew about git and GitHub so it didn’t take much time for me to learn some
+  new concepts
+
+The third task was to fork the microprofile conference project from Eclipse
+foundation’s repository and then to build the microservice session application.
+
+    In this initially, I faced many difficulties while building microservice
+    session application. I was building whole microprofile conference instead of
+    the microservice session and there was an error in web-app due to which I
+    thought that whole build failed then I approached Martin and he shared with
+    me some resources to learn like getting started with thorntail application
+    and Evaluation of enterprise java which helped me to know more about the
+    working of thorntail, how to build an application and about runnable.jar in
+    the target directory. Then also due to the same reason, I couldn’t get it.
+    Then I had a meeting with Martin where he told me about the maven
+    dependencies and told me about how to execute a demo application.I built the
+    demo application and I was able to run it.After that I tried building the
+    microservices-session application and I was able to run the application and
+    got the expected output. It took me around 4 days to figure it out but I was
+    able to explore and learn more about maven.
+    
+    I executed the microservice-session in the following sequences:
+   
+   *   mvn clean install
+   *   java -jar target/microservice-session-thorntail.jar
+
+The fourth task was to get started with Quarkus i.e creating the first application
+
+I learned through Quarkus blog about creating the first application.
+
+As I was using windows OS I was getting errors due to the commands when running
+the application. So I tried running quarkus application using the vscode and it
+was pretty much helpful and got to know the difference between quarkus and
+thorntail and their dependencies.
+
+I have completed this task in 3 days as I was having an exam one day. I had to
+skip that day.
+
+The fifth Task was to convert the microservices-session application to Quarkus
+
+In this task, I faced a lot of difficulties because of dependencies.
+The main thing I need to do was to change in the parent pom.xml and then reflect
+it in the microservice-session’s pom.xml file but I was changing everything in
+microservice-session’s pom.xml i.e replacing thorntail dependencies with quarkus
+and changing the version.
+
+Then I learned through dependencies about the blog which Martin shared with me.
+But I didn’t understand it completely so he arranged a meeting and explain the
+dependencies to me.
+
+Then I was able to reflect the changes in parent’s pom.xml file and
+microservice-session’s pom.xml file. It was building successfully with no errors
+but it was giving me 404 error and internal server error due to not including
+the Quarkus resteasy-jsonb extension dependency.
+
+Then we had a meeting where he taught me about JSON rest services, how 404, 500
+and 200 HTTP responses work and how changing path affects leads to errors.
+
+Then I was able to complete it soon and successfully got 200 ok as HTTP
+response.
+
+The main reason I was getting 404 or 500 HTTP responses was that I didn’t add
+the resteasy-jsonb extension dependency. After adding it, I got the expected
+output.
+
+The sixth task was to make a pull request
+
+I knew about how to make the pull request and completed it but then I got the
+review to have one commit instead of multiple commits.
+
+Then I came to know about squashing and force push.
+
+After that I broke down the whole application because of pushing application in
+different path instead of master but I was able to correct it.
+
+Then had some fun before merging it to the repository like making it to multiple
+commits again but I completed the task and I was able to get it merged
+completely.
+
+Experience - Experience In RHOSC was fun and full of learning. I was not knowing
+anything about maven but Martin helped me and taught me about new technologies
+which helped me to upgrade my knowledge. I hope I get the same mentor as Martin.
+He is one of the best mentors ever had and supported and taught me in a best
+manner. I hope I get a chance to work again with him.
+
+I think there need not to be any change in the RHOSC as it was well planned and
+executed really well.
+
+Thanks for the opportunity.
+
+ 
+
+
+
+
+    
+
+
+
