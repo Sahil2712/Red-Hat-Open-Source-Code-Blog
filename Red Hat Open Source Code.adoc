@@ -11,8 +11,8 @@ The project was divided into 6 subtasks:
 
 I was running the maven using `mvn clean install`. From this, I came to know what
 happens when we use `mvn clean install`. `mvn clean` cleans the project by
-removing `{project-directory}/target` and `mvn install` builds the project i.e creates everything in the
-`target` directory and installs it into my local repository. Then using mvn run it
+removing `{project-directory}/target` and `mvn install` builds the project i.e creates everything in the using `mvn`
+`target` directory and installs it into my local repository. Then I learned to run it
 in eclipse ide and I got the output successfully as I expected (`HelloWorldThorntail!`).
 After this task, I approached my mentor Martin. He taught me how internally mvn
 build (`clean install`) works and what happens after that when we run a maven
