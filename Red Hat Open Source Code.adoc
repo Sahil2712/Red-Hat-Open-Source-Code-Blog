@@ -41,7 +41,7 @@ microservices-session application and I was able to run the application and
 got the expected output. It took me around 4 days to figure it out but I was
 able to explore and learn more about maven.
     
-I executed the microservice-session in the following sequences:
+I executed the `microservice-session` in the following sequences:
    
    *   `mvn clean install`
    *   `java -jar target/microservice-session-thorntail.jar`
