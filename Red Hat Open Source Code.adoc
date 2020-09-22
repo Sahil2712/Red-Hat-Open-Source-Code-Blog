@@ -1,4 +1,4 @@
-= Red Hat Open Source Code
+= Red Hat Open Source Contest
 
 Project Start Date - 31/03/2020
 
