@@ -1,0 +1,43 @@
+= Red Hat Open Source Contest
+
+Project Start Date - 12/04/2021
+
+In RHOSC I was assigned on the task "on Datadriven Forms React Forms
+In this task, aim was to create a common component, that will:
+
+- offer a set of predefined schemas (they already exist)
+- store the state between refreshes
+- allow to write a custom schema
+- use components from current design library "
+
+The project was divided into 2 subtasks:
+
+== The initial task was to install and setup the react forms repository
+
+Initially I used to work on the windows os but while working on the project setup. I found out that project `don't support windows os`
+Then I installed linux os ubuntu with the help of Richard and then I was able to setup the project on ubuntu after 1 week.
+
+In this I was able to learn about linux commands which I didn't knew before.
+
+== Then it is to create a common component which can be used in all the packages
+
+I had some confusion in the task which got cleared but I was not able to do it. Then Richard suggested me to create a simple playground and then I was able to do it.
+
+== I couldn't able to do the task assigned after that.
+
+Due to some personal reasons and college works assigned I didn't focused on the tasks as it was hard for me to focus on many things at once. Richard helped me alot during that time also and able to create a template. Then I started to work but then again the college project work and new assignments came in the midway then I again need to focus on that and couldn't complete that also.
+
+I apologize for not being able to complete the task assigned even when Richard was trying to help alot in the project to Richard and RHOSC team.
+
+== Experience 
+
+Experience In RHOSC was fun and full of learning. I got to know alot of things about RedHat. I didn't knew many things but able to learn about linux commands and understand more about the react js and packages. RHOSC helped me to upgrade myself and helped to learn new things.
+
+
+I could have focused more on the tasks and made the priorities accordingly which I failed to do during the project duration. I will try to make sure that I prioritize my work and contribute more to the open source in the coming days.
+
+
+The project which I was working was working fine in linux os but it didn't worked in the windows os. I hope the projects in coming days support windows os as well. 
+Apart from that no change is required in RHOSC as it was well planned and executed really well.
+
+Thanks alot for the opportunity.
