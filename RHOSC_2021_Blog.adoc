@@ -1,4 +1,4 @@
-= Red Hat Open Source Contest
+= RedHat Open Source Contest
 
 Project Start Date - 12/04/2021
 
